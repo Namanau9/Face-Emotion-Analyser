@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import av
 
-# ---------------- UI SETTINGS ----------------
+# ---------------- UI SETTINGS -----------------
 st.set_page_config(page_title="Emotion Detector", page_icon="😊", layout="wide")
 
 st.markdown("""
